@@ -13,7 +13,7 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "test:jest": "jest --updateSnapshot",
-    "test:coverage:jest": "jest --updateSnapshot --coverage"
+    "test:jest": "jest --verbose --updateSnapshot",
+    "test:coverage:jest": "jest --verbose --updateSnapshot --coverage"
   }
 }

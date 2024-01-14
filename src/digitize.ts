@@ -11,3 +11,5 @@ export const digitize = (n: number): number[] => {
     return result;
   }
 };
+
+// console.log(digitize(1000));

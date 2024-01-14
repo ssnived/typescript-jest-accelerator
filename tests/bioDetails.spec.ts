@@ -1,17 +1,30 @@
 import * as bioDetails from "../src/bioDetails";
 
 describe("bioDetails summary tests @unit", () => {
-  it("biodetails successfully returns expected string", () => {
-    //test data
-    const name = ["John", "Smith"];
-    const city = "Phoenix";
-    const state = "Arizona";
-    const expectedResult = "Hello, John Smith! Welcome to Phoenix, Arizona!";
+  //test data
 
-    //test result
-    const result = bioDetails.bioDetails(name, city, state);
+  const testData = [
+    {
+      name: ["John", "Smith"],
+      city: "Phoenix",
+      state: "Arizona",
+      expectedResult: "Hello, John Smith! Welcome to Phoenix, Arizona!",
+    },
+    {
+      name: ["John", "Wick"],
+      city: "Phoenix",
+      state: "Arizona",
+      expectedResult: "Hello, John Wick! Welcome to Phoenix, Arizona!",
+    },
+  ];
 
-    //assertions
-    expect(result).toEqual(expectedResult);
-  });
+  it.each(testData)(
+    "bioDetails correctly converts '$name , $city , $state' to '$expectedResult'",
+    ({ name, city, state, expectedResult }) => {
+      const result = bioDetails.bioDetails(name, city, state);
+
+      //test assertion
+      expect(result).toEqual(expectedResult);
+    }
+  );
 });
