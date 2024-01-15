@@ -15,4 +15,4 @@ export const doubleCharacterTransform = (string: string) => {
   return result;
 };
 
-console.log(doubleCharacterTransform("Hello the characters are doubled"));
+// console.log(doubleCharacterTransform("Hello the characters are doubled"));
