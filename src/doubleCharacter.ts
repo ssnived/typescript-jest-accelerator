@@ -15,4 +15,4 @@ export const doubleCharacterTransform = (string: string) => {
   return result;
 };
 
-// console.log(doubleCharacterTransform(["John", "Smith"], "Phoenix", "Arizona"));
+console.log(doubleCharacterTransform("Hello the characters are doubled"));
