@@ -1,4 +1,4 @@
-import * as pipeFixer from "../src/pipeProblem";
+import * as pipeFixer from "../../src/sample/pipeProblem";
 
 describe("PipeFixer validations @unit", () => {
   //test data array

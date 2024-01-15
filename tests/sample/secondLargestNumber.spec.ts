@@ -1,4 +1,4 @@
-import * as secondLargestNumber from "../src/secondLargestNumber";
+import * as secondLargestNumber from "../../src/sample/secondLargestNumber";
 
 describe("SecondLargestNumber validations @unit", () => {
   //test data array

@@ -1,4 +1,4 @@
-import * as doubleCharacterTransform from "../src/doubleCharacter";
+import * as doubleCharacterTransform from "../../src/sample/doubleCharacter";
 
 describe("doubleCharacterTransform tests @unit", () => {
   const testData = [

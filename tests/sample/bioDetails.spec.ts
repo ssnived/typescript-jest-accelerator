@@ -1,4 +1,4 @@
-import * as bioDetails from "../src/bioDetails";
+import * as bioDetails from "../../src/sample/bioDetails";
 
 describe("bioDetails summary tests @unit", () => {
   //test data

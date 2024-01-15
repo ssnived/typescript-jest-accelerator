@@ -1,4 +1,4 @@
-import * as digitize from "../src/digitize"; //import module to test
+import * as digitize from "../../src/sample/digitize"; //import module to test
 
 describe("digitize function @unit", () => {
   it("should reverse digits of a number", () => {
